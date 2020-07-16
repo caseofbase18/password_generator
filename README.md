@@ -5,4 +5,4 @@ This is a random password generator.  There are three separate files for the htm
 
 Deployed: https://caseofbase18.github.io/password_generator/
 
-<img src="password_generator.png">
+<img src="./assets/password_generator.png">
