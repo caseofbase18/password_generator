@@ -13,8 +13,8 @@ body,
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+  font-family: 'Dancing Script', cursive;
+  background-color: palevioletred;
 }
 
 .wrapper {
@@ -27,11 +27,11 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: black;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: papayawhip;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -40,6 +40,8 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
 }
 
 .card-header::after {
@@ -56,6 +58,7 @@ header {
 
 .card-footer {
   text-align: center;
+  background-color:papayawhip;
 }
 
 .card-footer::before {
@@ -74,7 +77,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: plum;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -86,7 +89,9 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  font-family: 'Dancing Script', cursive;
 }
+
 
 button[disabled] {
   cursor: default;
